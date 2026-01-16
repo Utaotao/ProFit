@@ -73,7 +73,7 @@ The training script will automatically:
 --prob_threshold 0.8 --threshold_direction "lower"
 
 # Train on medium probability tokens
---prob_threshold [0.3,0.7] --threshold_direction "middle"
+--prob_threshold 0.3,0.7 --threshold_direction "middle"
 
 # Random sampling (30% of tokens)
 --prob_threshold 0.3 --threshold_direction "random"
