@@ -20,7 +20,7 @@ Both are *Tremendous* projects, and you can find nearly everything there, thanks
 git clone https://github.com/Utaotao/ProFit
 cd ProFit
 pip install -e ".[torch,metrics]"
-pip install torch==2.6.0 transformers==4.52.1 deepspeed -U
+pip install torch==2.9.1 transformers==4.57.1 deepspeed==0.16.9
 ```
 
 Please refer to [LLaMA Factory](https://github.com/hiyouga/LLaMA-Factory) for more details.
