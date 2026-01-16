@@ -12,6 +12,7 @@ This repo contains the code for our paper: <a href="https://arxiv.org/abs/2601.0
 ## Quick Start
 
 The training codes are built on <a href="https://github.com/hiyouga/LLaMA-Factory" target="_blank">LLaMA-Factory</a>.
+We employ <a href="https://github.com/open-compass/opencompass" target="_blank">OpenCompass</a> for evaluation.
 Both are *Tremendous* projects, and you can find nearly everything there, thanks to their great framework and beautiful code!
 
 ### Environment
@@ -28,6 +29,7 @@ Please refer to [LLaMA Factory](https://github.com/hiyouga/LLaMA-Factory) for mo
 ### Training Data
 
 We use the Shadow 2K dataset and save it at `data/Shadow_2k.parquet`.
+You can download via this [link](https://github.com/wutaiqiang/Shadow-FT/blob/main/data/Shadow_2k.parquet).
 
 For custom datasets, remember to add information at `data/dataset_info.json`.
 
@@ -111,6 +113,7 @@ llamafactory-cli train \
 ### For Evaluation
 
 Please refer to <a href="https://github.com/open-compass/opencompass" target="_blank">OpenCompass</a> for evaluation.
+You may find more details at this [repo](https://github.com/wutaiqiang/MI?tab=readme-ov-file#evaluation).
 
 ### Future Plan
 
@@ -136,4 +139,4 @@ If you find this repository helpful, please consider citing our paper:
 }
 ```
 
-For any questions, please pull an issue or email at `liu-t25@mails.tsinghua.edu.cn`
+For any questions, feel free to pull an issue or email at `liu-t25@mails.tsinghua.edu.cn`
