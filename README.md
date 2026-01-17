@@ -131,9 +131,9 @@ We use the Apache‑2.0 license. Please also comply with the licenses of any ups
 If you find this repository helpful, please consider citing our paper:
 
 ```bibtex
-@article{profit2026,
+@article{liu2026profit,
   title={ProFit: Leveraging High-Value Signals in SFT via Probability-Guided Token Selection},
-  author={Tao Liu and Taiqiang Wu and Runming Yang and Shaoning Sun and Junjie Wang and Yujiu Yang},
+  author={Liu, Tao and Wu, Taiqiang and Yang, Runming and Sun, Shaoning and Wang, Junjie and Yang, Yujiu},
   journal={arXiv preprint arXiv:2601.09195},
   year={2026}
 }
